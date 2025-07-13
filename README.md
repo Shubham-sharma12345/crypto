@@ -1,6 +1,47 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Crypto Tracker App
+Track real-time cryptocurrency data, including top coins, market trends, and live prices — all in one sleek and responsive interface.
+ 
+Frontend: https://crypto-fawn-three.vercel.app/
+
+Backend API: https://crypto-backend-lac-ten.vercel.app/api/crypto/current
+
+ Tech Stack
+Frontend:
+React.js
+
+JavaScript
+
+Axios (for API calls)
+
+TailwindCSS 
+
+Vercel (for deployment)
+
+Backend:
+
+Node.js
+
+Express.js
+
+MongoDB (for storing crypto data)
+
+CoinGecko API (for fetching real-time crypto market data)
+
+Vercel (for backend deployment)
+
+
+
+
+
+<img width="1893" height="853" alt="image" src="https://github.com/user-attachments/assets/ad24cb45-3d60-46b5-af41-f43e1afd579b" />
+
+<img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/b93bdf3b-0ba4-4c6d-8df4-7c252c233988" />
+
+ 
+
+
 
 Currently, two official plugins are available:
 
