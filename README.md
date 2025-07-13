@@ -37,9 +37,9 @@ Live Links
  Setup Instructions
 
  Clone the Repositories
-
-git clone https://github.com/Shubham-sharma12345/crypto-tracker-frontend
 Setup Frontend
+git clone https://github.com/Shubham-sharma12345/crypto
+
 ```bash
 cd crypto-tracker-frontend
 npm install
@@ -48,7 +48,7 @@ npm start
 <br>
 
 Setup Backend
-git clone https://github.com/Shubham-sharma12345/crypto-tracker-backend
+git clone (https://github.com/Shubham-sharma12345/crypto-backend
 ```bash
 cd crypto-tracker-backend
 npm install
