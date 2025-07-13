@@ -1,40 +1,66 @@
-# React + Vite
+ Crypto Tracker App
 
-Crypto Tracker App
-Track real-time cryptocurrency data, including top coins, market trends, and live prices — all in one sleek and responsive interface.
+A full-stack crypto tracking web app that fetches and displays live cryptocurrency data using a scheduled backend cron job.
+
+---
+
+Live Links
+
+- Frontend URL: [https://crypto-fawn-three.vercel.app](https://crypto-fawn-three.vercel.app)  
+- Backend API Base URL:[https://crypto-backend-lac-ten.vercel.app](https://crypto-backend-lac-ten.vercel.app/api/crypto/current)  
  
-Frontend: https://crypto-fawn-three.vercel.app/
+- **GitHub Repositories:**  
+  - [Frontend Repo](https://github.com/Shubham-sharma12345/crypto)  
+  - [Backend Repo](https://github.com/Shubham-sharma12345/crypto-backend)  
 
-Backend API: https://crypto-backend-lac-ten.vercel.app/api/crypto/current
+---
 
  Tech Stack
-Frontend:
-React.js
 
-JavaScript
+### Frontend
+- React.js
+- JavaScript
+- Axios
+- Tailwind CSS *(optional)*
+- Vercel *(for deployment)*
 
-Axios (for API calls)
+### Backend
+- Node.js
+- Express.js
+- MongoDB (MongoDB Atlas)
+- CoinGecko API *(for live crypto data)*
+- node-cron *(for scheduled tasks)*
+- Vercel *(for deployment)*
 
-TailwindCSS 
+---
 
-Vercel (for deployment)
+ Setup Instructions
 
-Backend:
+ Clone the Repositories
 
-Node.js
+git clone https://github.com/Shubham-sharma12345/crypto-tracker-frontend
+Setup Frontend
+```bash
+cd crypto-tracker-frontend
+npm install
+npm start
+```
+<br>
 
-Express.js
-
-MongoDB (for storing crypto data)
-
-CoinGecko API (for fetching real-time crypto market data)
-
-Vercel (for backend deployment)
-
-
-
-
-
+Setup Backend
+git clone https://github.com/Shubham-sharma12345/crypto-tracker-backend
+```bash
+cd crypto-tracker-backend
+npm install
+```
+<br>
+Create a .env file and add your MongoDB URI:
+```bash
+.env
+Copy
+Edit
+MONGODB_URI=your_mongodb_connection_string
+```
 <img width="1893" height="853" alt="image" src="https://github.com/user-attachments/assets/ad24cb45-3d60-46b5-af41-f43e1afd579b" />
 
 <img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/b93bdf3b-0ba4-4c6d-8df4-7c252c233988" />
