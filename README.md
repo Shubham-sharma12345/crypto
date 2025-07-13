@@ -17,14 +17,14 @@ Live Links
 
  Tech Stack
 
-### Frontend
+# Frontend
 - React.js
 - JavaScript
 - Axios
-- Tailwind CSS *(optional)*
-- Vercel *(for deployment)*
+- Tailwind CSS 
+- Vercel 
 
-### Backend
+# Backend
 - Node.js
 - Express.js
 - MongoDB (MongoDB Atlas)
