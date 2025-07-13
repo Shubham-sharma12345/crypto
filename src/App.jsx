@@ -16,16 +16,16 @@ function App() {
       }
     };
 
-    fetchData(); // Initial fetch
+    fetchData(); 
 
-    // Set interval to fetch data every 30 minutes
-    const intervalId = setInterval(fetchData, 30 * 60 * 1000); // 30 minutes in milliseconds
+ 
+    const intervalId = setInterval(fetchData, 30 * 60 * 1000); 
 
-    // Cleanup interval on component unmount
+   
     return () => clearInterval(intervalId);
   }, []);
 
-  // Filter cryptos based on search term
+ 
   const filteredCryptos = cryptos.filter((crypto) =>
     crypto.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
