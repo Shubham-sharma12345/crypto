@@ -22,15 +22,15 @@ Live Links
 - JavaScript
 - Axios
 - Tailwind CSS 
-- Vercel 
+
 
 # Backend
 - Node.js
 - Express.js
 - MongoDB (MongoDB Atlas)
-- CoinGecko API *(for live crypto data)*
-- node-cron *(for scheduled tasks)*
-- Vercel *(for deployment)*
+- CoinGecko API 
+- node-cron 
+
 
 ---
 
@@ -53,12 +53,12 @@ git clone https://github.com/Shubham-sharma12345/crypto-tracker-backend
 cd crypto-tracker-backend
 npm install
 ```
-<br>
+
 Create a .env file and add your MongoDB URI:
 ```bash
 .env
-Copy
-Edit
+Copy &Edit
+
 MONGODB_URI=your_mongodb_connection_string
 ```
 <img width="1893" height="853" alt="image" src="https://github.com/user-attachments/assets/ad24cb45-3d60-46b5-af41-f43e1afd579b" />
