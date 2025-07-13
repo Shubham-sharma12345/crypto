@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/crypto/current');
+        const response = await axios.get('https://crypto-backend-lac-ten.vercel.app/api/crypto/current');
         setCryptos(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
